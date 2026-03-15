@@ -1,276 +1,917 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <meta name="description" content="Ремонт квартир под ключ в Сургуте. Бригада мастеров с опытом 12+ лет. Гарантия 3 года. Бесплатный замер!"/>
-  <title>Ремонт квартир под ключ в Сургуте | Бригада мастеров</title>
-  <link rel="stylesheet" href="css/style.css" />
-  <!-- Фавиконка (опционально) -->
-  <link rel="icon" type="image/png" href="images/favi.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Студия эстетики «Точка Красоты» — уход за кожей в Татарстане</title>
+    <!-- 🌸 Фавикон сайта -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22 fill=%22%23ff3366%22>R</text></svg>" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22 fill=%22%23ff3366%22>R</text></svg>">
+    <meta name="theme-color" content="#ff3366">
+    <meta name="description" content="Студия эстетики лица и тела «Точка Красоты». Уход за кожей в Лениногорске, Альметьевске, Бугульме. Аппаратные процедуры, чистка лица, пилинги, лазерная эпиляция. Запись онлайн.">
+    <meta name="keywords" content="уход за кожей, чистка лица, пилинги, лазерная эпиляция, криолиполиз, студия красоты, Лениногорск, Альметьевск, Бугульма, косметолог, подростковая кожа">
+    <meta name="author" content="Рада Бурнаева">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://cosmetolog-rada.ru">
+    <!-- 🔍 Основные метатеги -->
+    <!-- 🤖 Open Graph (для соцсетей) -->
+    <meta property="og:title" content="Студия эстетики «Точка Красоты» — уход за кожей">
+    <meta property="og:description" content="Уход за кожей лица и тела в Татарстане. Аппаратные процедуры, чистка лица, пилинги, лазерная эпиляция. Работаем в Лениногорске, Альметьевске, Бугульме.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://cosmetolog-rada.ru">
+    <meta property="og:image" content="https://cosmetolog-rada.ru/images/preview.jpg">
+    <meta property="og:site_name" content="Точка Красоты">
+    <!-- 📱 Метатеги для мобильных -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <!-- 🌐 Языковые метатеги -->
+    <meta http-equiv="Content-Language" content="ru">
+    <meta name="language" content="Russian">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+            (function(m,e,t,r,i,k,a){
+            m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+            m[i].l=1*new Date();
+            for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+            k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
+        })(window, document,'script','https://mc.yandex.ru/metrika/tag.js?id=107199330', 'ym');
+
+    ym(107199330, 'init', {ssr:true, webvisor:true, clickmap:true, ecommerce:"dataLayer", referrer: document.referrer, url: location.href, accurateTrackBounce:true, trackLinks:true});
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/107199330" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
 </head>
 <body>
+    <!-- 🎯 Header + Навигация -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <span class="logo-icon">✨</span>
+                    <span class="logo-text">Рада Бурнаева</span>
+                </div>
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li><a href="#services" class="nav-link">Услуги</a></li>
+                        <li><a href="#about" class="nav-link">Обо мне</a></li>
+                        <li><a href="#why-me" class="nav-link">Почему я</a></li>
+                        <li><a href="#gallery" class="nav-link">Работы</a></li>
+                        <li><a href="#reviews" class="nav-link">Отзывы</a></li>
+                        <!-- <li><a href="tel:+79049876543" class="nav-link btn-call">📞 +7 (904) 987-65-43</a></li> -->
+                        <li><a href="#contact" class="nav-link btn-primary">Записаться</a></li>
+                    </ul>
+                </nav>
+                <button class="burger-menu" aria-label="Меню">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
 
-  <!-- Шапка -->
-  <header class="header">
-    <div class="container header__inner">
-      <a href="#" class="logo">🔨 РемонтСургут</a>
-      <button class="burger" aria-label="Меню" aria-expanded="false">
-        <span></span><span></span><span></span>
-      </button>
-      <nav class="nav" id="nav">
-        <a href="#services">Услуги</a>
-        <a href="#portfolio">Портфолио</a>
-        <a href="#process">Как работаем</a>
-        <a href="#reviews">Отзывы</a>
-        <a href="#contacts" class="btn btn--primary">Заказать замер</a>
-      </nav>
-    </div>
-  </header>
+    <!-- 🏆 Hero секция -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Сияющая кожа и уверенность в себе ✨
+                        <span class="hero-subtitle">Студия эстетики лица и тела «Точка Красоты»</span>
+                    </h1>
+                    <p class="hero-desc">
+                        Помогаю подросткам и взрослым обрести сияющую и здоровую кожу с помощью современных аппаратных технологий и индивидуального подхода. Приём в Лениногорске, Альметьевске и Бугульме.
+                    </p>
+                    <div class="hero-cta">
+                        <a href="#contact" class="btn btn-large btn-primary">Записаться на консультацию</a>
+                        <a href="#gallery" class="btn btn-large btn-outline">Посмотреть работы</a>
+                    </div>
+                    <div class="hero-trust">
+                        <div class="trust-item">
+                            <span class="trust-number">2.1K</span>
+                            <span class="trust-label">Подписчиков в Инсте</span>
+                        </div>
+                        <div class="trust-item">
+                            <span class="trust-number">3</span>
+                            <span class="trust-label">Города работы</span>
+                        </div>
+                        <div class="trust-item">
+                            <span class="trust-number">100%</span>
+                            <span class="trust-label">Результат или возврат</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="hero-img-wrapper">
+                        <img src="images/hero.jpg" alt="Косметолог Рада Бурнаева" class="hero-img">
+                        <div class="hero-badge">
+                            <span class="badge-icon">📍</span>
+                            <span>Ленино́горск, Альме́тьевск, Бугульма</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <!-- Герой -->
-  <section class="hero" style="background-image: url('images/hero2.jpg'); background-size: cover; background-position: center;">
-    <div class="container hero__content">
-      <h1>Ремонт квартир под ключ в Сургуте</h1>
-      <p class="hero__subtitle">Сделаем за 60 дней с гарантией 3 года. Без срыва сроков, с ежедневными отчетами в WhatsApp</p>
-      <div class="hero__actions">
-        <a href="#contacts" class="btn btn--primary btn--large">Заказать бесплатный замер</a>
-        <a href="tel:+79991234567" class="btn btn--outline btn--large">📞 +7 (999) 123-45-67</a>
-      </div>
-      <p class="hero__note">✅ Работаем с 2015 года • ✅ 80+ объектов • ✅ Договор и гарантия</p>
-    </div>
-  </section>
-
-  <!-- Услуги -->
-  <section id="services" class="section">
+    <!-- 🔥 Акционный блок -->
+<section class="promo-section">
     <div class="container">
-      <h2 class="section__title">Наши услуги</h2>
-      <div class="services-grid">
-        <article class="service-card">
-          <h3>🎨 Косметический ремонт</h3>
-          <p class="price">от 3 500 ₽/м²</p>
-          <ul>
-            <li>Поклейка обоев, покраска</li>
-            <li>Замена розеток и светильников</li>
-            <li>Укладка ламината/плинтусов</li>
-          </ul>
-          <a href="#contacts" class="btn btn--text">Рассчитать →</a>
-        </article>
-        <article class="service-card">
-          <h3>🏗 Капитальный ремонт</h3>
-          <p class="price">от 7 000 ₽/м²</p>
-          <ul>
-            <li>Демонтаж и подготовка стен</li>
-            <li>Электрика и сантехника</li>
-            <li>Чистовая отделка под ключ</li>
-          </ul>
-          <a href="#contacts" class="btn btn--text">Рассчитать →</a>
-        </article>
-        <article class="service-card">
-          <h3>✨ Ремонт с дизайном</h3>
-          <p class="price">от 12 000 ₽/м²</p>
-          <ul>
-            <li>Дизайн-проект в подарок</li>
-            <li>Авторский надзор</li>
-            <li>Комплектация материалами</li>
-          </ul>
-          <a href="#contacts" class="btn btn--text">Рассчитать →</a>
-        </article>
-      </div>
+        <div class="promo-content">
+            <div class="promo-header">
+                <span class="promo-badge">🔥 ТОЛЬКО ДО КОНЦА МЕСЯЦА</span>
+                <h2 class="promo-title">Курс ухода за подростковой кожей со скидкой 25%</h2>
+                <p class="promo-desc">4 процедуры для сияющей и здоровой кожи: чистка лица + пилинг + маска + подбор домашнего ухода. Идеально для подростков от 14 лет.</p>
+            </div>
+            <div class="promo-benefits">
+                <div class="benefit-item">
+                    <span class="benefit-icon">✓</span>
+                    <span>Скидка 25% на первый курс</span>
+                </div>
+                <div class="benefit-item">
+                    <span class="benefit-icon">✓</span>
+                    <span>Зона век входит в стоимость</span>
+                </div>
+                <div class="benefit-item">
+                    <span class="benefit-icon">✓</span>
+                    <span>Достаточно 1 курса</span>
+                </div>
+                <div class="benefit-item">
+                    <span class="benefit-icon">✓</span>
+                    <span>Результат до 6 месяцев</span>
+                </div>
+                <div class="benefit-item">
+                    <span class="benefit-icon">✓</span>
+                    <span>Бесплатная консультация</span>
+                </div>
+            </div>
+            <div class="promo-price">
+                <div class="price-item">
+                    <span class="price-label">подбор ухода</span>
+                    <span class="price-value free">0 ₽</span>
+                </div>
+                <div class="price-item main">
+                    <span class="price-label">чистка + пилинг + маска</span>
+                    <div class="price-wrap">
+                        <span class="price-old">15 000 ₽</span>
+                        <span class="price-new">8 000 ₽</span>
+                    </div>
+                </div>
+            </div>
+            <a href="#contact" class="btn btn-large btn-primary promo-btn">
+                Записаться на акцию
+            </a>
+            <p class="promo-note">* Количество мест ограничено — осталось 4 слота на месяц</p>
+        </div>
     </div>
-  </section>
+</section>
 
-  <!-- О мастере -->
-  <section class="section section--gray">
-    <div class="container about">
-      <div class="about__image">
-        <!-- Заглушка: замени на фото мастера -->
-        <img src="images/master.jpg" alt="Александр - прораб с 12-летним опытом" loading="lazy">
-      </div>
-      <div class="about__content">
-        <h2>О мастере</h2>
-        <p><strong>Александр</strong>, прораб с 12-летним опытом. Лично контролирую каждый объект.</p>
-        <ul class="about__list">
-          <li>✅ 3 слаженные бригады в Сургуте, славяне</li>
-          <li>✅ Работаем с новостройками и вторичкой</li>
-          <li>✅ 98% клиентов рекомендуют нас друзьям</li>
-          <li>✅ Фиксированная смета — без доплат в процессе</li>
-        </ul>
-      </div>
-    </div>
-  </section>
-
-  <!-- Портфолио -->
-  <section id="portfolio" class="section">
+<!-- 🔥 Акционный блок — безопасная услуга -->
+<!-- <section class="promo" id="promo">
     <div class="container">
-      <h2 class="section__title">Наши работы</h2>
-      <p class="section__subtitle">Реальные объекты в Сургуте и районе</p>
-      <div class="portfolio-grid">
-        <!-- Карточки портфолио: замени src на реальные фото -->
-        <div class="portfolio-item">
-          <img src="images/doposleremont.jpeg" alt="Ремонт 1-комнатной квартиры в ЖК Преображение" class="portfolio-img" loading="lazy">
-          <div class="portfolio-info">
-            <h4>1-комн., ЖК «Преображение»</h4>
-            <p>Капитальный ремонт • 42 м² • 45 дней</p>
-          </div>
+        <div class="promo-content">
+            <div class="promo-badge">
+                <span>🎁</span> Специальное предложение
+            </div>
+            <h2 class="promo-title">Курс ухода за подростковой кожей со скидкой 25%</h2>
+            <p class="promo-desc">4 процедуры для сияющей и здоровой кожи: чистка лица + пилинг + маска + подбор домашнего ухода. Идеально для подростков от 14 лет.</p>
+            <div class="promo-info">
+                <div class="promo-item">
+                    <strong>✨</strong> Скидка 25% на первый курс
+                </div>
+                <div class="promo-item">
+                    <strong>⏰</strong> Количество мест ограничено — осталось 4 слота на месяц
+                </div>
+            </div>
+            <a href="#contact" class="btn btn-large btn-primary promo-btn">Записаться на акцию</a>
         </div>
-        <div class="portfolio-item">
-          <img src="images/doposlekosmetrem.jpg" alt="Ремонт 2-комнатной квартиры на ул. Энергетиков" class="portfolio-img" loading="lazy">
-          <div class="portfolio-info">
-            <h4>2-комн., ул. Университетская</h4>
-            <p>Косметический ремонт • 58 м² • 28 дней</p>
-          </div>
-        </div>
-        <div class="portfolio-item">
-          <img src="images/doposlefedorovka.jpg" alt="Ремонт студии в п.г.т. Федоровский" class="portfolio-img" loading="lazy">
-          <div class="portfolio-info">
-            <h4>Студия, п.г.т. Федоровский</h4>
-            <p>Ремонт под ключ • 32 м² • 35 дней</p>
-          </div>
-        </div>
-      </div>
     </div>
-  </section>
+</section> -->
 
-  <!-- Процесс работы -->
-  <section id="process" class="section section--gray">
-    <div class="container">
-      <h2 class="section__title">Как мы работаем</h2>
-      <div class="process-steps">
-        <div class="step">
-          <span class="step__num">1</span>
-          <h4>Заявка</h4>
-          <p>Оставляете заявку — перезваниваем за 15 минут</p>
+    <!-- 🌟 Почему выбирают меня -->
+        <section class="why-me" id="why-me">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Почему клиенты выбирают меня</h2>
+                    <p class="section-subtitle">Не просто специалист по уходу за кожей — ваш персональный эксперт</p>
+                </div>
+                <div class="why-grid">
+                    <div class="why-card">
+                        <div class="why-icon">🏆</div>
+                        <h3>6+ лет опыта</h3>
+                        <p>Работаю с 2018 года, провела более 2000 процедур</p>
+                    </div>
+                    <div class="why-card">
+                        <div class="why-icon">🔬</div>
+                        <h3>Сертифицированное оборудование</h3>
+                        <p>Использую профессиональное оборудование, прошедшее обязательную сертификацию в России. Работаю с аппаратами ведущих мировых производителей</p>
+                    </div>
+                    <div class="why-card">
+                        <div class="why-icon">👧</div>
+                        <h3>Эксперт по подростковой коже</h3>
+                        <p>Помогаю подросткам с 14 лет справиться с жирным блеском, расширенными порами и неоднородным тоном кожи. Обязательно присутствие родителя на первой консультации.</p>
+                    </div>
+                    <div class="why-card">
+                        <div class="why-icon">💯</div>
+                        <h3>Индивидуальный подход</h3>
+                        <p>Подбираю программы ухода с учётом особенностей вашей кожи и целей. Работаю до достижения видимого результата</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!-- 📋 Услуги -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Услуги нашей студии</h2>
+                <p class="section-subtitle">Современные процедуры для ухода за кожей лица и тела</p>
+            </div>
+            <div class="services-grid">
+                   <!-- Карточка 5 -->
+                <div class="service-card">
+                    <div class="service-icon">👱🏻‍♀️👩🏻‍🦰👩🏻</div>
+                    <h3 class="service-title">Уход за подростковой кожей</h3>
+                    <p class="service-desc">Комплекс процедур для сияющей и здоровой кожи подростков. Работаем с жирным блеском, расширенными порами и неоднородным тоном кожи. Подбираем индивидуальный уход</p>
+                    <div class="service-price">от 2 000 ₽</div>
+                    <a href="#contact" class="btn btn-sm btn-outline service-btn">Подробнее</a>
+                </div>
+                <!-- Карточка 1 -->
+                <!-- <div class="service-card">
+                    <div class="service-icon">🔬</div>
+                    <h3 class="service-title">Аппаратная подтяжка кожи</h3>
+                    <p class="service-desc">Современная процедура для улучшения тонуса и упругости кожи. Стимулирует обновление клеток, уменьшает видимость морщин и улучшает текстуру кожи. Видимый эффект после первого сеанса!</p>
+                    <div class="service-price">от 8 000 ₽</div>
+                    <a href="#contact" class="btn btn-sm btn-outline service-btn">Подробнее</a>
+                </div> -->
+                <!-- Карточка 2 -->
+                <!-- <div class="service-card">
+                    <div class="service-icon">❄️</div>
+                    <h3 class="service-title">Криолиполиз</h3>
+                    <p class="service-desc">Аппаратная процедура для коррекции контуров тела. С помощью охлаждения уменьшает объёмы в проблемных зонах. Без хирургического вмешательства и длительного восстановления.</p>
+                    <div class="service-price">от 3 500 ₽</div>
+                    <a href="#contact" class="btn btn-sm btn-outline service-btn">Подробнее</a>
+                </div> -->
+                <!-- Карточка 3 -->
+                <!-- <div class="service-card"> -->
+                    <!-- <div class="service-icon">🔦</div>
+                    <h3 class="service-title">Лазерная эпиляция</h3>
+                    <p class="service-desc">Подходит для любого цвета волос и типов кожи, включая тёмную и загорелую.</p>
+                    <div class="service-price">от 1 500 ₽</div>
+                    <a href="#contact" class="btn btn-sm btn-outline service-btn">Подробнее</a>
+                </div> -->
+                <!-- Карточка 4 -->
+                <div class="service-card">
+                    <div class="service-icon">🧴</div>
+                    <h3 class="service-title">Чистка лица</h3>
+                    <p class="service-desc">Глубокое очищение кожи от загрязнений и излишков себума. Восстанавливает свежесть и сияние кожи. Подходит для всех типов кожи и возрастов.</p>
+                    <div class="service-price">от 2 500 ₽</div>
+                    <a href="#contact" class="btn btn-sm btn-outline service-btn">Подробнее</a>
+                </div>
+                <!-- Карточка 6 -->
+                <div class="service-card">
+                    <div class="service-icon">✨</div>
+                    <h3 class="service-title">Поверхностные пилинги</h3>
+                    <p class="service-desc">Мягкое обновление кожи и улучшение цвета лица. Ферментные и мягкие кислотные составы для сияющей и гладкой кожи. Без агрессивного воздействия, подходит для подростков от 12 лет.</p>
+                    <div class="service-price">от 3 500 ₽</div>
+                    <a href="#contact" class="btn btn-sm btn-outline service-btn">Подробнее</a>
+                </div>
+                <!-- 🌟 ДОПОЛНИТЕЛЬНЫЕ ПРОЦЕДУРЫ -->
+                <!-- Карточка 7: Химический пилинг -->
+                <!-- <div class="service-card">
+                    <div class="service-icon">𓂃</div>
+                    <h3 class="service-title">Оформление бровей</h3>
+                    <p class="service-desc">Аппаратная процедура для укрепления мышц тазового дна. Улучшает тонус и эластичность мышц, способствует общему ощущению комфорта и уверенности. Подходит для женщин после родов и для профилактики.</p>
+                    <div class="service-price">от 3 500 ₽</div>
+                    <a href="#contact" class="btn btn-sm btn-outline service-btn">Подробнее</a>
+                </div> -->
+
+                <!-- Оформление бровей -->
+                <div class="service-card">
+                    <div class="service-icon">✏️</div>
+                    <h3 class="service-title">Оформление бровей</h3>
+                    <p class="service-desc">Коррекция формы бровей воском, пинцетом или нитью. Окрашивание хной или стойкими красками для идеального цвета и выразительности. Ламинирование для объёма и фиксации формы на 6–8 недель. Создаём идеальную форму без повреждения кожи.</p>
+                    <div class="service-price">от 3 000 ₽</div>
+                    <a href="#contact" class="btn btn-sm btn-outline service-btn">Подробнее</a>
+                </div>
+
+                <!-- Карточка 8: Ультразвуковая чистка -->
+                <div class="service-card">
+                    <div class="service-icon">💆</div>
+                    <h3 class="service-title">Спа массаж головы</h3>
+                    <p class="service-desc">Комплекс процедур, направленных на улучшение состояния кожи головы и волос. Включает в себя массаж, применение питательных масок и ароматерапию.</p>
+                    <div class="service-price">от 5 000 ₽</div>
+                    <a href="#contact" class="btn btn-sm btn-outline service-btn">Подробнее</a>
+                </div>
+
+                <!-- Карточка 11: Обертывания -->
+                <div class="service-card">
+                    <div class="service-icon">🧣</div>
+                    <h3 class="service-title">Косметические обёртывания Styx</h3>
+                    <p class="service-desc">Styx-обвертывание- это профессиональная методика влажного бандажного обертывания австрийской косметикой Aromaderm, направленная на уход за кожей тела, улучшение её внешнего вида и текстуры. Включает нанесение термоактивных гелей с натуральными эфирными маслами для расслабляющего эффекта и увлажнения кожи.</p>
+                    <div class="service-price">от 5 500 ₽</div>
+                    <a href="#contact" class="btn btn-sm btn-outline service-btn">Подробнее</a>
+                </div>
+
+                 <div class="service-card">
+                    <div class="service-icon">🌿</div>
+                    <h3 class="service-title">Барофорез</h3>
+                    <p class="service-desc">Позволяет без инъекций доставлять лечебную сыворотку в глубокие слои кожи. Позволяет без инъекций доставлять активные сыворотки в глубокие слои кожи для улучшения увлажнённости и сияния.</p>
+                    <div class="service-price">от 4 500 ₽</div>
+                    <a href="#contact" class="btn btn-sm btn-outline service-btn">Подробнее</a>
+                </div>
+
+                 <div class="service-card">
+                    <div class="service-icon">⚡</div>
+                    <h3 class="service-title">EMS-тренировки (Electric Mio Stimulation)</h3>
+                    <p class="service-desc">Фитнес-тренировки с использованием электростимуляции мышц. Усиливает эффект от упражнений, помогает скорректировать фигуру и улучшить тонус тела.</p>
+                    <div class="service-price">от 3 500 ₽</div>
+                    <a href="#contact" class="btn btn-sm btn-outline service-btn">Подробнее</a>
+                </div>
+
+                 <!-- <div class="service-card">
+                    <div class="service-icon">⚕️</div>
+                    <h3 class="service-title">Аппарат INDIBA</h3>
+                    <p class="service-desc">Аппаратная процедура для улучшения тонуса и упругости кожи. Способствует уменьшению объёмов и улучшению контуров тела. Подходит для коррекции фигуры и ухода за кожей.</p>
+                    <div class="service-price">от 4 500 ₽</div>
+                    <a href="#contact" class="btn btn-sm btn-outline service-btn">Подробнее</a>
+                </div> -->
+
+                <!-- Карточка 15: Курс ухода (абонемент) -->
+                <div class="service-card">
+                    <div class="service-icon">📦</div>
+                    <h3 class="service-title">Курс ухода (абонемент)</h3>
+                    <p class="service-desc">4 процедуры по уходу за кожей со скидкой 20%. Идеально для закрепления результата после чистки или пилинга.</p>
+                    <div class="service-price">от 12 000 ₽</div>
+                    <a href="#contact" class="btn btn-sm btn-outline service-btn">Подробнее</a>
+                </div>
+
+                <!-- Карточка 16: Консультация -->
+                <div class="service-card">
+                    <div class="service-icon">💬</div>
+                    <h3 class="service-title">Консультация косметолога</h3>
+                    <p class="service-desc"></p>Анализ кожи, подбор процедур и домашнего ухода. Первичная консультация — бесплатно при записи через сайт!</p>
+                    <div class="service-price"><span style="color:#28a745;font-weight:700">Бесплатно</span></div>
+                    <a href="#contact" class="btn btn-sm btn-outline service-btn">Подробнее</a>
+                </div>
+            </div>
+            <div class="services-cta">
+                <p>Не уверены, какая процедура подойдет?</p>
+                <a href="#contact" class="btn btn-primary">Бесплатная консультация</a>
+            </div>
         </div>
-        <div class="step">
-          <span class="step__num">2</span>
-          <h4>Замер</h4>
-          <p>Бесплатный выезд, обмер, консультация</p>
+    </section>
+
+    <!-- 👩‍⚕️ Обо мне -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="images/hero.jpg" alt="Рада Бурнаева - косметолог" class="about-img">
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">6+</span>
+                            <span class="stat-label">лет опыта</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">30+</span>
+                            <span class="stat-label">сертификатов</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">2000+</span>
+                            <span class="stat-label">счастливых клиентов</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h2 class="about-title">Меня зовут Рада Бурнаева</h2>
+                    <p class="about-desc">
+                        Более 6 лет я помогаю подросткам и их родителям обрести сияющую и здоровую кожу. Специализируюсь на деликатном уходе за молодой кожей и подборе безопасных процедур с видимым результатом.
+                    </p>
+                    <p class="about-desc">
+                        Моё имя — это гарантия качества и доверия. Я не просто выполняю процедуры, а сопровождаю каждого клиента на пути к уверенности в себе и красоте без комплексов.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <span class="highlight-icon">✓</span>
+                            <span>Работаю на профессиональном оборудовании</span>
+                        </div>
+                        <div class="highlight-item">
+                            <span class="highlight-icon">✓</span>
+                            <span>Индивидуальный подход к каждому клиенту</span>
+                        </div>
+                        <div class="highlight-item">
+                            <span class="highlight-icon">✓</span>
+                            <span>Безопасные и проверенные методики</span>
+                        </div>
+                        <div class="highlight-item">
+                            <span class="highlight-icon">✓</span>
+                            <span>Прием в 3 городах: Лениногорск, Альметьевск, Бугульма</span>
+                        </div>
+                    </div>
+                    <div class="about-links">
+                        <a href="https://www.instagram.com/cosmetolog_radaburnaeva" target="_blank" class="btn btn-outline">
+                            <span class="btn-icon">📷</span>
+                            Мой Instagram
+                        </a>
+                        <button class="btn btn-primary" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">
+                            Записаться
+                        </button>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="step">
-          <span class="step__num">3</span>
-          <h4>Договор</h4>
-          <p>Фиксируем цену, сроки и гарантии в договоре</p>
+    </section>
+
+    <!-- 🖼️ Галерея работ -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Наши работы</h2>
+                <p class="section-subtitle">Фотографии до и после ухода за кожей</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="images/akne.jpg" alt="До/После чистки лица" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <span class="gallery-label">Уход за подростковой кожей</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/himpiling.jpg" alt="Пилинг" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <span class="gallery-label">Чистка лица</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/almaznaya.jpeg" alt="Поверхностные пилинги" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <span class="gallery-label">Поверхностные пилинги</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/teenfacecare.jpg" alt="Уход за кожей" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <span class="gallery-label">Уход за подростковой кожей</span>
+                    </div>
+                </div>
+                <!-- <div class="gallery-item">
+                    <img src="images/crio.jpg" alt="Криолиполиз" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <span class="gallery-label">Криолиполиз</span>
+                    </div>
+                </div> -->
+                  <div class="gallery-item">
+                    <img src="images/headsparelax.jpg" alt="Аква массаж спа-головы" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <span class="gallery-label">Аква массаж спа-головы</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/sopranoepilyacia.jpg" 
+                        alt="Аппарат Soprano Titanium - лазерная эпиляция" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <span class="gallery-label">Эпиляция</span>
+                    </div>
+                </div>
+
+                <!-- Работа 8 -->
+                <div class="gallery-item">
+                    <img src="images/emsapp.jpg" 
+                        alt="аппарат ems тренировки" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <span class="gallery-label">Аппарат ems тренировки</span>
+                    </div>
+                </div>
+
+                <!-- Работа 9 -->
+                <!-- <div class="gallery-item">
+                    <img src="images/indiba.jpg" 
+                        alt="Индиба аппарат" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <span class="gallery-label">Индиба аппарат</span>
+                    </div>
+                </div> -->
+
+                <!-- Работа 11 -->
+                <div class="gallery-item">
+                    <img src="images/brovi.jpg" 
+                        alt="Оформление бровей" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <span class="gallery-label">Оформление бровей</span>
+                    </div>
+                </div>
+
+                <!-- Работа 17 -->
+                <div class="gallery-item">
+                    <img src="images/almaz.jpg" 
+                        alt="Барофорез" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <span class="gallery-label">Барофорез</span>
+                    </div>
+                </div>
+
+                <!-- Работа 21 -->
+                <div class="gallery-item">
+                    <img src="images/pilingi.jpg" 
+                        alt="Пилинги" class="gallery-img">
+                    <div class="gallery-overlay">
+                        <span class="gallery-label">Пилинги</span>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="gallery-footer">
+                <p>Больше работ смотрите в моём <a href="https://www.instagram.com/cosmetolog_radaburnaeva" target="_blank" class="link-instagram">Instagram →</a></p>
+            </div>
         </div>
-        <div class="step">
-          <span class="step__num">4</span>
-          <h4>Ремонт</h4>
-          <p>Работаем, присылаем фотоотчеты ежедневно</p>
+    </section>
+
+    <!-- 💬 Отзывы -->
+    <section class="reviews" id="reviews">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Отзывы клиентов</h2>
+                <p class="section-subtitle">Что говорят обо мне</p>
+            </div>
+            <div class="reviews-slider">
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="review-avatar">А</div>
+                        <div class="review-info">
+                            <div class="review-name">Алина, 16 лет</div>
+                            <div class="review-city">Ленино́горск</div>
+                        </div>
+                        <div class="review-rating">★★★★★</div>
+                    </div>
+                    <p class="review-text">
+                        Рада помогла мне избавиться от ужасных прыщей! За 3 процедуры кожа стала чистой, а я перестала стесняться фотографироваться. Очень рекомендую сверстникам! Особенно перед выпускным и фотоссесией))
+                    </p>
+                </div>
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="review-avatar">М</div>
+                        <div class="review-info">
+                            <div class="review-name">Марина, 34 года</div>
+                            <div class="review-city">Альме́тьевск</div>
+                        </div>
+                        <div class="review-rating">★★★★★</div>
+                    </div>
+                    <p class="review-text">
+                        Обратилась к Раде за консультацией по уходу за кожей. Получила подробные рекомендации по домашнему уходу и программу процедур. Очень благодарна за профессионализм и внимание!
+                    </p>
+                </div>
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="review-avatar">Е</div>
+                        <div class="review-info">
+                            <div class="review-name">Екатерина, 28 лет</div>
+                            <div class="review-city">Бугульма</div>
+                        </div>
+                        <div class="review-rating">★★★★★</div>
+                    </div>
+                    <p class="review-text">
+                        Прошла курс поверхностных пилингов у Рады. Кожа стала более ровной, сияющей и здоровой. Рада подобрала идеальную программу именно для моего типа кожи!
+                    </p>
+                </div>
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="review-avatar">Е</div>
+                        <div class="review-info">
+                            <div class="review-name">Гульназ, 15 лет</div>
+                            <div class="review-city">Лениногорск</div>
+                        </div>
+                        <div class="review-rating">★★★★★</div>
+                    </div>
+                    <p class="review-text">
+                        Пришла к Раде с ужасными прыщами на лице в 15 лет — комплексовала ужасно, не хотела фотографироваться. Подобрали уходовую космецевтику, средства курс + ультразвуковую чистку. Уже после 1 процедуры кожа стала чистой, а через месяц я вообще перестала краснеть! Мама говорит, что я помолодела на вид. Очень благодарна — теперь хожу в школу с удовольствием!
+                    </p>
+                </div>
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="review-avatar">Е</div>
+                        <div class="review-info">
+                            <div class="review-name">Елена, 42 года</div>
+                            <div class="review-city">Альметьевск</div>
+                        </div>
+                        <div class="review-rating">★★★★★</div>
+                    </div>
+                    <p class="review-text">
+                        Обратилась к Раде за помощью в улучшении состояния кожи. Была приятно удивлена внимательным подходом и качеством процедур. Кожа стала более упругой и сияющей. Очень довольна результатом!
+                    </p>
+                </div>
+            </div>
         </div>
-        <div class="step">
-          <span class="step__num">5</span>
-          <h4>Сдача</h4>
-          <p>Проверяем вместе, подписываем акт, даем гарантию</p>
+    </section>
+
+    <!-- 📍 Контакты + Форма -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2 class="contact-title">Оставьте заявку</h2>
+                    <p class="contact-desc">
+                        Заполните форму и я свяжусь с вами в течение 2 часов для обсуждения программы ухода за кожей.
+                    </p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <span class="contact-icon">📍</span>
+                            <div>
+                                <div class="contact-label">Адреса приема:</div>
+                                <div class="contact-text">
+                                    <strong>Ленино́горск:</strong> ул. Шашина, 56 (студия «Точка Красоты», первое помещение)<br>
+                                    <strong>Альме́тьевск:</strong> по договорённости<br>
+                                    <strong>Бугульма:</strong> по договорённости
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📱</span>
+                            <div>
+                                <div class="contact-label">Связаться:</div>
+                                <div class="contact-text">
+                                    <a href="tel:+79172891633" class="contact-link">+7 (917) 289-16-33</a><br>
+                                    <a href="https://t.me/@rada_burnaeva" target="_blank" class="contact-link">Telegram</a><br>
+                                    <a href="https://wa.me/79172891633" target="_blank" class="contact-link">WhatsApp</a><br>
+                                    <a href="https://max.ru/u/f9LHodD0cOJtx8bnmxXZ8GNjoH2jIe1R-IJyytbk-tEeL23QeGdP6UHdpbQ" target="_blank" class="contact-link">Написать в MAX</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📷</span>
+                            <div>
+                                <div class="contact-label">Мои работы:</div>
+                                <div class="contact-text">
+                                    <a href="https://www.instagram.com/cosmetolog_radaburnaeva" target="_blank" class="contact-link instagram-link">
+                                        @cosmetolog_radaburnaeva
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-map">
+                        <!-- <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A933f166c7f0b66b4a5f1b7cb46ce1116566348e0522b98bf4a63ba1709db2ac4&amp;source=constructor" width="400" height="300" frameborder="0"></iframe> -->
+                         <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A933f166c7f0b66b4a5f1b7cb46ce1116566348e0522b98bf4a63ba1709db2ac4&amp;source=constructor" width="100%" height="300" frameborder="0"></iframe>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="appointmentForm" action="/telegram.php" method="POST">
+                        <div class="form-group">
+                            <label for="name">Ваше имя *</label>
+                            <input type="text" id="name" name="name" required placeholder="Введите ваше имя">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Телефон *</label>
+                            <input type="tel" id="phone" name="phone" required placeholder="+7 (___) ___-__-__">
+                        </div>
+                        <div class="form-group">
+                            <label for="city">Город *</label>
+                            <select id="city" name="city" required>
+                                <option value="">Выберите город</option>
+                                <option value="leninogorsk">Ленино́горск</option>
+                                <option value="almetevsk">Альме́тьевск</option>
+                                <option value="Aznakaevo">Азнакаево</option>
+                                <option value="bugulma">Бугульма</option>
+                                <option value="bavly">Бавлы</option>
+                                <option value="karabash">Карабаш</option>
+                                <option value="shugurovo">Шугурово</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Интересующая услуга</label>
+                            <select id="service" name="service">
+                                <option value="">Выберите услугу</option>
+                                <option value="teen">Уход за подростковой кожей</option>
+                                <option value="rf">подтяжка лица</option>
+                                <option value="head spa">Спа массаж головы</option>
+                                <option value="Barophoresis">Барофорез</option>
+                                <option value="cleaning">Чистка лица</option>
+                                <option value="peeling">Пилинги и маски</option>
+                                <option value="consult">Консультация</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Комментарий</label>
+                            <textarea id="message" name="message" rows="4" placeholder="Расскажите о своей проблеме или пожеланиях"></textarea>
+                        </div>
+                        <div class="form-checkbox">
+                            <input type="checkbox" id="privacy" name="privacy" required>
+                            Я даю согласие на обработку персональных данных в соответствии с 
+                            <a href="privacy.html" target="_blank">Политикой конфиденциальности</a>
+                            <!-- <label for="privacy">Я согласен на обработку персональных данных</label> -->
+                        </div>
+                        <button type="submit" class="btn btn-large btn-primary btn-block">
+                            <span class="btn-text">Оставить заявку</span>
+                            <span class="btn-loader" id="formLoader"></span>
+                        </button>
+                        <div class="form-success" id="formSuccess">
+                            ✅ Спасибо! Я свяжусь с вами в ближайшее время.
+                        </div>
+                    </form>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Гарантии -->
-  <section class="section">
-    <div class="container guarantees">
-      <h2>Наши гарантии</h2>
-      <ul class="guarantees-list">
-        <li>📄 Договор с фиксированной сметой — никаких «внезапных» доплат</li>
-        <li>⏱ Штраф за просрочку — 0.5% от суммы договора в день</li>
-        <li>📱 Ежедневные отчеты в WhatsApp(Telegram, MAX) — вы всегда в курсе</li>
-        <li>🛡 Гарантия на работы 3 года — по договору</li>
-        <li>💬 Поддержка после сдачи — поможем с мелочами</li>
-      </ul>
-    </div>
-  </section>
-
-  <!-- Отзывы -->
-  <section id="reviews" class="section section--gray">
-    <div class="container">
-      <h2 class="section__title">Отзывы клиентов</h2>
-      <div class="reviews-grid">
-        <blockquote class="review">
-          <p>«Сделали ремонт в двушке на Мелик-Карамова. Сроки не сорвали, мусор убрали, соседи даже не ругались 😊 Рекомендую!»</p>
-          <footer>— Елена, ЖК «Северный»</footer>
-        </blockquote>
-        <blockquote class="review">
-          <p>«Долго искали бригаду, остановились на Александре. Не пожалели: аккуратно, честно, по цене как договаривались».</p>
-          <footer>— Дмитрий, п.г.т. Барсово</footer>
-        </blockquote>
-      </div>
-    </div>
-  </section>
-
-  <!-- Форма захвата / Квиз -->
-  <section id="contacts" class="section cta">
-    <div class="container">
-      <h2>Рассчитайте стоимость ремонта за 1 минуту</h2>
-      <p>Ответьте на 4 вопроса — пришлем расчет + скидку 5% на первый заказ</p>
-      
-      <form class="quiz-form" id="quizForm">
-        <div class="quiz-step active" data-step="1">
-          <p class="quiz-question">Какая площадь помещения?</p>
-          <div class="quiz-options">
-            <label><input type="radio" name="area" value="do-30"> до 30 м²</label>
-            <label><input type="radio" name="area" value="30-60"> 30–60 м²</label>
-            <label><input type="radio" name="area" value="60+"> более 60 м²</label>
-          </div>
-          <button type="button" class="btn btn--primary next-step">Далее →</button>
+        <!-- 🙋‍♀️ Часто задаваемые вопросы (Аккордеон) -->
+    <section class="faq" id="faq">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Частые вопросы</h2>
+                <p class="section-subtitle">Ответы на вопросы клиентов которые задают больше всего</p>
+            </div>
+            
+            <div class="accordion" id="faqAccordion">
+                <!-- Вопрос 1 -->
+                <div class="accordion-item">
+                    <button class="accordion-header" id="heading1">
+                        <span class="accordion-icon">+</span>
+                        <span class="accordion-title">Больно ли это?</span>
+                    </button>
+                    <div class="accordion-content" id="collapse1">
+                        <p>Аппаратные процедуры и чистка лица проводятся комфортно — безболезненно. Поверхностные пилинги могут вызывать лёгкое покалывание, сравнимое с укусом комара. Для чувствительных клиентов использую дополнительные средства комфорта.</p>
+                    </div>
+                </div>
+                
+                <!-- Вопрос 2 -->
+                <div class="accordion-item">
+                    <button class="accordion-header" id="heading2">
+                        <span class="accordion-icon">+</span>
+                        <span class="accordion-title">Сколько стоит?</span>
+                    </button>
+                    <div class="accordion-content" id="collapse2">
+                        <p><strong>Чистка лица:</strong> от 2 500 ₽<br>
+                        <strong>Лазерная эпиляция:</strong> от 1 500 ₽<br>
+                        <strong>Поверхностные пилинги:</strong> от 3 500 ₽<br>
+                        <strong>Полный прайс</strong> смотрите в разделе «Услуги» или спрашивайте на консультации.</p>
+                    </div>
+                </div>
+                
+                <!-- Вопрос 3 -->
+                <div class="accordion-item">
+                    <button class="accordion-header" id="heading3">
+                        <span class="accordion-icon">+</span>
+                        <span class="accordion-title">Сколько держится результат?</span>
+                    </button>
+                    <div class="accordion-content" id="collapse3">
+                        <p><strong>Поверхностные пилинги:</strong> 3-4 недели<br>
+                        <strong>Аппаратная подтяжка кожи:</strong> до 1.5 лет<br>
+                        <strong>Чистка лица:</strong> индивидуально, до 6 месяцев<br>
+                        <strong>Криолиполиз:</strong> до 1 года при правильном питании и образе жизни<br>
+                        <strong>Барофорез:</strong> 6-12 месяцев</p>
+                    </div>
+                </div>
+                
+                <!-- Вопрос 4 -->
+                <div class="accordion-item">
+                    <button class="accordion-header" id="heading4">
+                        <span class="accordion-icon">+</span>
+                        <span class="accordion-title">Можно ли в 14-15 лет?</span>
+                    </button>
+                    <div class="accordion-content" id="collapse4">
+                        <p>Да! Чистка лица, ультразвук и дарсонвализация разрешены с 14 лет. Обязательно присутствие родителя на первой консультации. Многие девочки из Лениногорска приходят ко мне с 15 лет — родители доверяют.</p>
+                    </div>
+                </div>
+                
+                <!-- Вопрос 5 -->
+                <div class="accordion-item">
+                    <button class="accordion-header" id="heading5">
+                        <span class="accordion-icon">+</span>
+                        <span class="accordion-title">Как подготовиться?</span>
+                    </button>
+                    <div class="accordion-content" id="collapse5">
+                        <p><strong>Чистка/пилинг:</strong> не загорать 3 дня, не использовать ретиноиды 5 дней.<br>
+                        <strong>Аппаратная подтяжка кожи:</strong> прийти без макияжа, увлажнённой кожей.<br>
+                        За час до процедуры можно принять обезболивающее (по желанию).</p>
+                    </div>
+                </div>
+                
+                <!-- Вопрос 6 -->
+                <div class="accordion-item">
+                    <button class="accordion-header" id="heading6">
+                        <span class="accordion-icon">+</span>
+                        <span class="accordion-title">Что будет после процедуры?</span>
+                    </button>
+                    <div class="accordion-content" id="collapse6">
+                        <p><strong>Чистка/пилинг:</strong> лёгкое покраснение 1-3 часа.<br>
+                        <strong>Аппаратная подтяжка кожи:</strong> покраснение и отёк до 1 дня(как правило к вечеру уже спадает), затем кожа «сияет».<br>
+                        Все эффекты временные — подробно расскажу на консультации.</p>
+                    </div>
+                </div>
+                
+                <!-- Вопрос 7 -->
+                <div class="accordion-item">
+                    <button class="accordion-header" id="heading7">
+                        <span class="accordion-icon">+</span>
+                        <span class="accordion-title">Есть ли противопоказания?</span>
+                    </button>
+                    <div class="accordion-content" id="collapse7">
+                        <p>Рекомендуем проконсультироваться с врачом при беременности, лактации, острых инфекциях или обострении хронических заболеваний кожи. Безопасность важнее результата!</p>
+                    </div>
+                </div>
+                
+                <!-- Вопрос 8 -->
+                <div class="accordion-item">
+                    <button class="accordion-header" id="heading8">
+                        <span class="accordion-icon">+</span>
+                        <span class="accordion-title">Сколько процедур нужно для результата?</span>
+                    </button>
+                    <div class="accordion-content" id="collapse8">
+                        <p><strong>Чистка лица:</strong> эффект после 1 процедуры, курс подбирается индивидуально.<br>
+                        <strong>Поверхностные пилинги:</strong> курс 4-6 процедур с интервалом 7-10 дней.<br>
+                        <strong>Аппаратная подтяжка кожи:</strong> видимый результат после 1 процедуры, максимальный — через 3 месяца.<br>
+                    </div>
+                </div>
+                
+                <!-- Вопрос 9 -->
+                <div class="accordion-item">
+                    <button class="accordion-header" id="heading9">
+                        <span class="accordion-icon">+</span>
+                        <span class="accordion-title">Можно ли делать процедуры летом?</span>
+                    </button>
+                    <div class="accordion-content" id="collapse9">
+                        <p><strong>Чистка лица и ультразвук:</strong> можно круглый год.<br>
+                        <strong>Пилинги:</strong> лучше осенью-зимой, летом — только лёгкие поверхностные.<br>
+                        <strong>Аппаратная подтяжка кожи:</strong> можно летом, но 2 недели после процедуры — никакого загара!<br>
+                        <strong>Лазерная эпиляция:</strong> можно круглый год.</p>
+                    </div>
+                </div>
+                
+                <!-- Вопрос 10 -->
+                <div class="accordion-item">
+                    <button class="accordion-header" id="heading10">
+                        <span class="accordion-icon">+</span>
+                        <span class="accordion-title">Если результат не понравится?</span>
+                    </button>
+                    <div class="accordion-content" id="collapse10">
+                        <p>Действует правило: «Сначала консервативно». Делаю минимальную дозу, через 2 недели приглашаю на коррекцию. Работаю до достижения результата!</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="faq-cta">
+                <p>Остались вопросы?</p>
+                <a href="#contact" class="btn btn-primary">Задать свой вопрос</a>
+            </div>
         </div>
+    </section>
 
-        <div class="quiz-step" data-step="2">
-          <p class="quiz-question">Какой тип ремонта нужен?</p>
-          <div class="quiz-options">
-            <label><input type="radio" name="type" value="cosmetic"> Косметический</label>
-            <label><input type="radio" name="type" value="capital"> Капитальный</label>
-            <label><input type="radio" name="type" value="turnkey"> Под ключ с дизайном</label>
-          </div>
-          <div class="quiz-nav">
-            <button type="button" class="btn btn--outline prev-step">← Назад</button>
-            <button type="button" class="btn btn--primary next-step">Далее →</button>
-          </div>
+    <!-- 🦶 Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="logo-icon">✨</span>
+                    <span class="logo-text">Рада Бурнаева</span>
+                    <p class="footer-desc">Студия эстетики лица и тела</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Навигация</h4>
+                        <a href="#home" class="footer-link">Главная</a>
+                        <a href="#services" class="footer-link">Услуги</a>
+                        <a href="#about" class="footer-link">Обо мне</a>
+                        <a href="#gallery" class="footer-link">Работы</a>
+                        <a href="agreement.html" class="footer-link">Пользовательское соглашение</a>
+                        <a href="privacy.html" class="footer-link">Политика конфиденциальности</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Контакты</h4>
+                        <a href="tel:+79172891633" class="footer-link">+7 (917) 289-16-33</a>
+                        <a href="https://t.me/rada_burnaeva" target="_blank" class="footer-link">Telegram</a>
+                        <a href="https://max.ru/u/f9LHodD0cOJtx8bnmxXZ8GNjoH2jIe1R-IJyytbk-tEeL23QeGdP6UHdpbQ" target="_blank" class="footer-link">MAX</a>
+                        <a href="https://www.instagram.com/cosmetolog_radaburnaeva" target="_blank" class="footer-link">Instagram</a>
+                    </div>
+                </div>
+                <div class="footer-legal">
+                    <p>Сайт использует файлы cookie для улучшения пользовательского опыта. Подробнее в <a href="/privacy.html">Политике конфиденциальности</a>.</p>
+                    <p>© 2026 Бурнаева Рада Нафисовна. Самозанятый (НПД). Все права защищены.</p>
+                    <p>Не является публичной офертой.</p>
+                    <p>Разработано с ❤️ для косметологов</p>
+                </div>
+            </div>
         </div>
+    </footer>
 
-        <div class="quiz-step" data-step="3">
-          <p class="quiz-question">В каком районе Сургута объект?</p>
-          <input type="text" name="district" class="input" placeholder="Например: ЖК «Преображение», ул. Энергетиков..." required />
-          <div class="quiz-nav">
-            <button type="button" class="btn btn--outline prev-step">← Назад</button>
-            <button type="button" class="btn btn--primary next-step">Далее →</button>
-          </div>
-        </div>
+    <!-- 📱 WhatsApp кнопка -->
+    <!-- <a href="https://wa.me/79172891633" target="_blank" class="whatsapp-btn" aria-label="Написать в WhatsApp">
+        <span class="whatsapp-icon">💬</span>
+    </a> -->
 
-        <div class="quiz-step" data-step="4">
-          <p class="quiz-question">Куда отправить расчет?</p>
-          <input type="tel" name="phone" class="input" placeholder="+7 (___) ___-__-__" required pattern="^[\d\s\+\-\(\)]{10,}$" />
-          <input type="text" name="name" class="input" placeholder="Ваше имя (необязательно)" />
-          <button type="submit" class="btn btn--primary btn--large">Получить расчет со скидкой 5% 🎁</button>
-          <p class="form-note">🔒 Ваши данные не передаются третьим лицам</p>
-        </div>
-      </form>
 
-      <div class="form-success" id="formSuccess" hidden>
-        <h3>✅ Спасибо! Мы уже считаем ваш ремонт</h3>
-        <p>Перезвоним в течение 15 минут. Проверьте, пожалуйста, что телефон указан верно.</p>
-        <a href="tel:+79991234567" class="btn btn--outline">Или позвоните сами: +7 (999) 123-45-67</a>
-      </div>
-    </div>
-  </section>
+    <!-- <!- 📞 Плавающая кнопка телефона (мобильные) -->
+    <a href="tel:++79172891633" class="phone-float" aria-label="Позвонить">
+        <span class="phone-icon">📞</span>
+    </a>
+</div>
 
-  <!-- Футер -->
-  <footer class="footer">
-    <div class="container footer__inner">
-      <div>
-        <strong>РемонтСургут</strong>
-        <p>Ремонт квартир под ключ в Сургуте и районе</p>
-      </div>
-      <div>
-        <p>📞 <a href="tel:+79991234567">+7 (999) 123-45-67</a></p>
-        <p>💬 <a href="https://wa.me/79991234567">WhatsApp</a> • <a href="https://t.me/username">Telegram</a></p>
-        <p>📍 Сургут, Нефтеюганск, Лянтор, п.г.т. района</p>
-      </div>
-    </div>
-    <div class="container footer__bottom">
-      <p>© 2026 РемонтСургут. Все права защищены. | <a href="#">Политика конфиденциальности</a></p>
-    </div>
-  </footer>
-
-  <script src="js/script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
